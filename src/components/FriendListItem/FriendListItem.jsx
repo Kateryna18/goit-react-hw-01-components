@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 
-export const FriendListItem = (friend) => {
-    const { avatar, name, isOnline, id } = friend;
+export const FriendListItem = ({avatar, name, isOnline}) => {
 
   return (
-    <li className="item" key={id}>
+    <li className="item" >
       <span className="status">{isOnline}</span>
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
@@ -13,9 +12,8 @@ export const FriendListItem = (friend) => {
 };
 
 
-// FriendListItem.propTypes = {
-//     avatar: PropTypes.string.isRequired,
-//     name: PropTypes.string.isRequired,
-//     isOnline: PropTypes.bool.isRequired,
-//     id: PropTypes.number.isRequired,
-// }
+FriendListItem.propTypes = {
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+}
