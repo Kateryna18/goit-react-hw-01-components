@@ -1,0 +1,46 @@
+.profile {
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    gap: 15px;  
+    align-items: center;
+
+    margin-bottom: 10px;
+
+}
+
+.avatar {
+    width: 150px;
+}
+
+/* .info {
+} */
+
+.name {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.tag {
+    margin-bottom: 5px;
+}
+
+/* .location {
+}
+
+.stats {
+
+} */
+
+.statsItem:not(:last-child) {
+    margin-bottom: 5px;
+}
+.label {
+    margin-right: 5px;
+}
+
+/* .quantity {
+
+} */

@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.status {
+    display: inline-flex;
+    padding: 3px;
+    text-align: center;
+    
+    font-size: 12px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.718);
+    border-radius: 5px;
+}
+
+.online {
+    background-color: rgba(0, 128, 0, 0.581);
+}
+
+/* .avatar {
+
+} */
+
+.name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}

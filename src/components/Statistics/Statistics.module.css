@@ -1,0 +1,23 @@
+.statistics {
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 10px
+}
+
+/* .statList {
+
+} */
+
+.item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.label {
+    margin-right: 5px;
+}
+
+/* .percentage {
+
+} */
